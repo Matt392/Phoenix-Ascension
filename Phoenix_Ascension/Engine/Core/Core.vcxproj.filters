@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\DataTypes">
+      <UniqueIdentifier>{8788adf1-2211-484a-9eb1-475ea326ed91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DataTypes">
+      <UniqueIdentifier>{a3eba913-6a6c-4105-bf47-e0576b6e6497}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DataTypes\String">
+      <UniqueIdentifier>{230ecd38-8be3-403f-9dd6-3379ff0cd277}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DataTypes\String">
+      <UniqueIdentifier>{3c5a4b43-28d8-4c9a-9fee-4c3d61b16f04}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Macros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GenTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GenInc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Serializer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ASCString.h">
+      <Filter>Header Files\DataTypes\String</Filter>
+    </ClInclude>
+    <ClInclude Include="ASCVector.h">
+      <Filter>Header Files\DataTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="GenMem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Serializer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ASCString.cpp">
+      <Filter>Source Files\DataTypes\String</Filter>
+    </ClCompile>
+    <ClCompile Include="GenMem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
